@@ -1,12 +1,12 @@
 console.log("Hello, word!");
 
-var inputSalario = document.querySelector("#valor-hora");
-
-var inputProjeto = document.querySelector("#horas-projeto");
-
-var inputResultado = document.querySelector("#resposta");
-
 function calcular() {
+  var inputSalario = document.querySelector("#valor-hora").valueAsNumber;
+
+  var inputProjeto = document.querySelector("#horas-projeto").valueAsNumber;
+
+  var inputResultado = document.querySelector("#resposta");
+
   var salarioPorHora = inputSalario;
   var tempoPorProjeto = inputProjeto;
 
